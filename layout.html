@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Website</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar container flex">
+            <h2 class="logo">CampGear</h2>
+
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+
+            <ul class="nav-links flex">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="homepage" id="home">
+        <div class="content flex">
+            <div class="text">
+                <h1>Camping Gear and Essentials</h1>
+                <p>We provide high-quality camping gears to make your adventures safe, fun, and unforgettable. From tents to backpacks, we’ve got everything you need for the wilderness.</p>
+            </div>
+            <a href="#services">Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>At CampGear, we offer gear rentals, sales, and expert advice to ensure you’re always ready for your next adventure.</p>
+            </div>
+            <ul class="cards flex">
+                <li class="card">
+                    <img src="./image/tents.jpg">
+                    <h3>Tents</h3>
+                    <p>Durable, weather-resistant tents designed for comfort and protection in all outdoor conditions.</p>
+                </li>
+                <li class="card">
+                    <img src="./image/backpacks.jpg">
+                    <h3>Backpacks</h3>
+                    <p>Lightweight and spacious backpacks built for long hikes and outdoor expeditions.</p>
+                </li>
+                <li class="card">
+                    <img src="./image/cookware.jpg">
+                    <h3>Cookware</h3>
+                    <p>Compact and portable cookware sets to make cooking outdoors simple and enjoyable.</p>
+                </li>
+                <li class="card">
+                    <img src="./image/bags.jpg">
+                    <h3>Sleeping Bags</h3>
+                    <p>Stay warm and comfortable through the night with our high-quality sleeping bags.</p>
+                </li>
+                <li class="card">
+                    <img src="./image/light.jpg">
+                    <h3>Lanterns & Lighting</h3>
+                    <p>Bright and long-lasting lanterns to keep your campsite well lit after dark.</p>
+                </li>
+                <li class="card">
+                    <img src="./image/shoes.jpg">
+                    <h3>Outdoor Shoes</h3>
+                    <p>Rugged and reliable footwear made for hiking trails and mountain adventures.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>We are passionate about the outdoors and committed to providing adventurers with the gear they need to explore the world with confidence.</p>
+            </div>
+            <div class="row company-info flex">
+                <div class="card">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2010, CampGear started with a small team of outdoor enthusiasts who wanted to make camping more accessible. Today, we’re proud to serve thousands of adventurers worldwide.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>Our vision is to inspire people to connect with nature by providing sustainable, affordable, and top-quality camping essentials for every kind of adventure.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Team</h3>
+                    <ul>
+                        <li>John Doe – Founder & CEO</li>
+                        <li>Sarah Johnson – Operations Manager</li>
+                        <li>James Smith – Gear Specialist</li>
+                        <li>Emily Brown – Marketing Lead</li>
+                        <li>Michael Lee – Customer Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you! Reach out to us for product inquiries, rentals, or expert advice on camping essentials.</p>
+            </div>
+            <div class="row flex">
+                <div class="col information">
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> 12P Campsite Avenue, Wilderness, CA 98765</p>
+                        <p><i class="fas fa-envelope"></i> info@campgear.com</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 6:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+                        <p><i class="fas fa-globe"></i> www.campgear.com</p>
+                    </div>
+                </div>
+                <div class="col form">
+                    <form action="#">
+                        <input type="text" placeholder="Name:" required>
+                        <input type="email" placeholder="Email:" required>
+                        <textarea placeholder="Message" required></textarea>
+                        <button id="submit" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span>Copyright &copy; 2023 CampGear. All Rights Reserved.</span>
+        </div>
+    </footer>
+</body>
+<script src="./javascript/utils.js"></script>
+</html>
